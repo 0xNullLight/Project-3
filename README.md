@@ -93,7 +93,7 @@ or allow me to brush up on terminology or language or maybe even OOP in a fun le
  - [Project Setup](https://github.com/0xNullLight/Project-3/blob/main/README.md#project-description)
  - [Project Requirements](https://github.com/0xNullLight/Project-3?tab=readme-ov-file#project-requirements)
  - [Required Modules](https://github.com/0xNullLight/Project-3/tree/main?tab=readme-ov-file#required-modules-and-languages)
- - [Video Demonstration]()
+ - [Video Demonstration](https://github.com/0xNullLight/Project-3/blob/main/README.md#video-demonstration)
  - [Installation](https://github.com/0xNullLight/Project-3/blob/main/README.md#installation)
  - [Usage](https://github.com/0xNullLight/Project-3/blob/main/README.md#usage)
  - [Testing](https://github.com/0xNullLight/Project-3/blob/main/README.md#testing)
