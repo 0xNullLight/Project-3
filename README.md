@@ -4,7 +4,7 @@ A quiz for bootcamp students to help practice understanding terminology and ques
 This is a simple beginner application that anyone with almost no coding experiance should be able to pull together.
 
 ## Features
-- Help JR devolpers study for that job interview
+- Help devolpers study for that job interview
 - Brush up on terminology or languages
 - User Authentication
 - Secure login/signup with email
