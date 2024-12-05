@@ -13,6 +13,7 @@ As a user, I want to be able to pull up a quiz and have it ask me questions I sh
 
 ## Table of Contents
  - [Project Name](https://github.com/0xNullLight/Project-3/blob/main/README.md#bootcamp-quiz)
+ - [Features](https://github.com/0xNullLight/Project-3/blob/main/README.md#bootcamp-quiz)
  - [User Story]()
  - [Project Setup]()
  - [Project Description]()
