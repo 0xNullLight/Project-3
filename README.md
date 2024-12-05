@@ -98,14 +98,6 @@ As a user, I want to be able to pull up a quiz and have it ask me questions I sh
  - [Contributors](https://github.com/0xNullLight/Project-3?tab=readme-ov-file#contributors)
  - [Questions]()
 
-## Acceptance Criteria
-
-- 
-- 
-- 
-
-
-
 ## Project Description
 
 - log in page with email 
@@ -218,7 +210,7 @@ Workflow:
 
 ### Outline
 
-Building a quiz app with React, Django, and Python is a great way to learn full-stack development. Here's a high-level overview of the steps involved:
+Building a quiz app with React, Django, and Python to learn full-stack development. Here's a high-level overview of the steps involved:
 
 1. Backend (Django):
 Set up Django: Create a new Django project and app.
@@ -230,28 +222,35 @@ Calculating scores
 Retrieving results
 
 2. Frontend (React):
-Set up React: Create a new React project using Create React App or a similar tool.
-Design Components: Create components for:
+- Set up React: Create a new React project using Create React App or a similar tool.
+
+- Design Components: Create components for:
 Quiz display
 Question display
 Answer options
-Progress bar
+Progress bar(if applicable)
 Timer (if applicable)
-Results display
-Fetch Data: Use fetch or a library like axios to fetch quiz data from the Django API.
-Handle User Input: Manage user responses, track progress, and handle timer logic (if applicable).
-Submit Responses: Send user responses to the Django API for scoring and storage.
-Display Results: Fetch and display quiz results from the Django API.
+Results display(if applicable)
+
+- Fetch Data: Use fetch or a library like axios to fetch quiz data from the Django API.
+
+- Handle User Input: Manage user responses, track progress, and handle timer logic (if applicable).
+
+- Submit Responses: Send user responses to the Django API for scoring and storage.
+
+- Display Results: Fetch and display quiz results from the Django API.
 
 3. Integration:
 Configure CORS:
-Ensure your Django backend allows requests from your React frontend (likely running on different ports during development).
-Deploy:
-Deploy both your Django backend and React frontend to appropriate hosting services.
-Here's a more detailed breakdown of the steps:
-Backend (Django):
-Python
+- Ensure your Django backend allows requests from your React frontend (likely running on different ports during development).
 
+Deploy:
+- Deploy both your Django backend and React frontend to appropriate hosting services.
+
+Here's a more detailed breakdown of the steps:
+
+#### Backend (Django):
+Python
 
 # models.py
 from django.db import models
@@ -267,7 +266,8 @@ class Answer(models.Model):
     question = models.ForeignKey(Question, on_delete=models.CASCADE)
     text = models.CharField(max_length=200)
     is_correct = models.BooleanField(default=False)
-Frontend (React):
+
+#### Frontend (React):
 JavaScript
 
 // Quiz.js
@@ -287,7 +287,7 @@ function Quiz() {
   );
 }
 
-Important Considerations:
+## Important Considerations for future development:
 
 Authentication: Implement user authentication if you want to track user-specific data.
 
