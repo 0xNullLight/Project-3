@@ -64,7 +64,7 @@ The backend will .
 ## Installation
 
 1. Clone the repository:  
-   `git clone 
+   `git clone https://github.com/0xNullLight/Project-3
 2. Install dependencies:  
    `npm install`
 3. Set up the PostgreSQL database using the provided schema.
