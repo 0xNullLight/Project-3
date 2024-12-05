@@ -101,11 +101,18 @@ or allow me to brush up on terminology or language or maybe even OOP in a fun le
  - [Questions]()
 
 ## Project Description
-- A simple application that quizzes the user
-- A log in page with email 
+- A simple interactive application that quizzes the user (i.e., accepts and responds to user input)
+- A log in page with email
+- Must include authentication using JWT 
 - Quiz page
 - Front End React
 - Back End Python
+- Deployed with Render
+- Uses queries and mutations for retrieving, adding, updating, & deleting data
+- A polished UI
+- Uses at least one GitHub Action in the project repository
+- Protects API keys and sensitive information with environment variables
+- It is deployed using Render (with data)
 
 ### Schematics
 
@@ -266,7 +273,7 @@ function Quiz() {
   );
 }
 
-## Project Requirements
+# Project Requirements
 
 - Must use React for Front end
 - Python as your back-end language
