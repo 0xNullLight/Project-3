@@ -64,7 +64,7 @@ The backend will .
 ## Installation
 
 1. Clone the repository:  
-   `git clone https://github.com/Bugatti1982/Car-Finder`
+   `git clone 
 2. Install dependencies:  
    `npm install`
 3. Set up the PostgreSQL database using the provided schema.
