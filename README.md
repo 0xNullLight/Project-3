@@ -386,7 +386,6 @@ Claree Ratliff
 
 ## Questions
 - Please contact us with any question through Github
-- Protects API keys and sensitive information with environment variables
-- It is deployed using Render (with data)
+
 
 
