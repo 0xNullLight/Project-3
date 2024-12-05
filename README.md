@@ -100,8 +100,8 @@ or allow me to brush up on terminology or language or maybe even OOP in a fun le
  - [Questions]()
 
 ## Project Description
-- a simple application that quizzes the user
-- log in page with email 
+- A simple application that quizzes the user
+- A log in page with email 
 - Quiz page
 - Front End React
 - Back End Python
@@ -202,7 +202,7 @@ Progress bar(if applicable)
 Timer (if applicable)
 Results display(if applicable)
 
-- Fetch Data: Use fetch or a library like axios to fetch quiz data from the Django API.
+- Fetch Data: Use fetch to fetch quiz data from the Django API.
 
 - Handle User Input: Manage user responses, track progress, and handle timer logic (if applicable).
 
