@@ -106,40 +106,9 @@ or allow me to brush up on terminology or language or maybe even OOP in a fun le
 - Front End React
 - Back End Python
 
-## Project Requirements
-
-- Must use React for Front end
-- Python as your back-end language
-- Must use queries and mutations for retrieving, adding, updating, & deleting data
-- Must be interactive (i.e., accept and respond to user input)
-- Must have a polished UI
-- Must use at least one GitHub Action in the project repository
-- Must include authentication using JWT
-- Must protect API keys and sensitive information with environment variables
-- Must be deployed using Render (with data)
-
-CSS STYLING (Optional) 
-
-Instead of using a CSS library like Bootstrap, consider one of the following suggestions:
-- Try using a component library, such as Semantic UI, Chakra UI, or Ant Design.
-- Create all the CSS for your application just using CSS.
-- Regardless of which of these options you choose—it must look professional and be mobile-friendly.
-
-PRESENTATION REQUIREMENTS 
-
-Your formal, 10-minute presentation must include the following: 
-- Your Applications overall concept
-- The motivation of your applications development
-- Your Design Process
-- Technologies used (and a brief description of how they work)
-- A demonstartion of the appplications functionality
-- Directions for future development
-- Sometimes, talking intelligently about tech > doing tech.
-
-
 ### Schematics
 
-Building a quiz app with React, Django, and Python involves several steps. Here's a schematic to get you started:
+Building a quiz app with React, Django, and Python involves several steps. Here's a schematic to get the user started:
 
 Backend (Django):
 - Set up Django project:
@@ -172,7 +141,7 @@ API integration:
 - Use fetch or a library like axios to make requests to the Django API endpoints.
 
 State management:
-Use React's built-in state management or a library like Redux to manage:
+Use React's built-in state management to manage:
 - Selected quiz
 - Current question
 - User answers
@@ -299,7 +268,37 @@ function Quiz() {
   );
 }
 
-#### Important Considerations for future development:
+## Project Requirements
+
+- Must use React for Front end
+- Python as your back-end language
+- Must use queries and mutations for retrieving, adding, updating, & deleting data
+- Must be interactive (i.e., accept and respond to user input)
+- Must have a polished UI
+- Must use at least one GitHub Action in the project repository
+- Must include authentication using JWT
+- Must protect API keys and sensitive information with environment variables
+- Must be deployed using Render (with data)
+
+CSS STYLING (Optional) 
+
+Instead of using a CSS library like Bootstrap, consider one of the following suggestions:
+- Try using a component library, such as Semantic UI, Chakra UI, or Ant Design.
+- Create all the CSS for your application just using CSS.
+- Regardless of which of these options you choose—it must look professional and be mobile-friendly.
+
+PRESENTATION REQUIREMENTS 
+
+Your formal, 10-minute presentation must include the following: 
+- Your Applications overall concept
+- The motivation of your applications development
+- Your Design Process
+- Technologies used (and a brief description of how they work)
+- A demonstartion of the appplications functionality
+- Directions for future development
+- Sometimes, talking intelligently about tech > doing tech.
+
+## Important Considerations for future development:
 
 Authentication: Implement user authentication if you want to track user-specific data.
 
