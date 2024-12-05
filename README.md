@@ -12,7 +12,7 @@ This is a simple beginner application that anyone with almost no coding experian
 - True/false questions
 - Fill-in-the-blank
 
-### With endless possibilities of continuation with the application including the following ideas:
+#### With endless possibilities of continuation with the application including the following ideas:
 
 Core Features: 
 
