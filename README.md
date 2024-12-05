@@ -122,8 +122,6 @@ Define models for:
 - Answer (answer text, whether it's correct, question it belongs to)
 - API endpoints (Django Rest Framework):
 - Create API endpoints for:
-- Retrieving quizzes
-- Retrieving questions for a specific quiz
 - Submitting user answers
 - Calculating and returning scores
 
@@ -138,11 +136,10 @@ Create components for:
 - Result display
 
 API integration:
-- Use fetch or a library like axios to make requests to the Django API endpoints.
+- Use fetch to make requests to the Django API endpoints.
 
 State management:
 Use React's built-in state management to manage:
-- Selected quiz
 - Current question
 - User answers
 - Score
