@@ -3,3 +3,5 @@ This branch is deditcated to learning Django; it is not associated directly with
 **Note from Bee Vang:**
 
 Later, I will create a page dedicated to showcasing these markdowns.
+
+https://0xnulllight.github.io/Project-3/
