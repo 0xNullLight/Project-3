@@ -90,7 +90,7 @@ or allow me to brush up on terminology or language or maybe even OOP in a fun le
  - [Features](https://github.com/0xNullLight/Project-3/blob/main/README.md#bootcamp-quiz)
  - [User Story](https://github.com/0xNullLight/Project-3/blob/main/README.md#bootcamp-quiz)
  - [Project Description](https://github.com/0xNullLight/Project-3/blob/main/README.md#project-description)
- - [Project Setup]()
+ - [Project Setup](https://github.com/0xNullLight/Project-3/blob/main/README.md#project-description)
  - [Project Requirements](https://github.com/0xNullLight/Project-3?tab=readme-ov-file#project-requirements)
  - [Required Modules]()
  - [Installation]()
