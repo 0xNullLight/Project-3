@@ -32,7 +32,7 @@ As a user, I want to be able to pull up a quiz and have it ask me questions I sh
 
 ## Project Setup
 
-![Car Selection Database](Assets/diagram-export-10-2-2024-9_05_09-pm_720.png)
+![Quiz outline]()
 
 * Cars
   * id: Name String
@@ -44,7 +44,7 @@ As a user, I want to be able to pull up a quiz and have it ask me questions I sh
 
 ### Frontend Details
 
-The front end will provide the user interface for .
+The front end will provide the user interface for quiz questions and answers.
 
 ### Backend Details
 
