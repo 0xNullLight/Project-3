@@ -52,7 +52,24 @@ The backend will .
 
 ## Project Description
 
-.
+- Must use React for Front end
+- Python as your back-end language
+- Must use queries and mutations for retrieving, adding, updating, & deleting data
+- Must be interactive (i.e., accept and respond to user input)
+- Must have a polished UI
+- Must use at least one GitHub Action in the project repository
+- Must include authentication using JWT
+- Must protect API keys and sensitive information with environment variables
+- Must be deployed using Render (with data)
+
+CSS STYLING (Optional) 
+
+Instead of using a CSS library like Bootstrap, consider one of the following suggestions:
+- Try using a component library, such as Semantic UI, Chakra UI, or Ant Design.
+- Create all the CSS for your application just using CSS.
+- Regardless of which of these options you choose—it must look professional and be mobile-friendly.
+
+
 
 ### Required Modules
 
@@ -103,13 +120,14 @@ Claree Ratliff
 
 ### Resources
 
-
+- [Django Project Complete Step by Step](https://www.youtube.com/watch?v=s0aCEXg3ct4)
 - [Quiz App using Django](https://www.geeksforgeeks.org/quiz-application-using-django/)
-- [quiz2](https://www.youtube.com/watch?v=-nd6JFw52j0)
-- [Quiz3](https://www.youtube.com/watch?v=vXXfXRf2S4M)
-- [link](https://www.geeksforgeeks.org/quiz-application-using-django/)
-- [link](https://data-flair.training/blogs/create-quiz-application-python-django/)
-- [link](https://www.geeksforgeeks.org/django-projects/)
-- [link](https://github.com/pamelafox/django-quiz-app)
-- [link](https://youtu.be/PtQiiknWUcI)
+- [DJango and React How to build a Quiz App for Beginners](https://www.youtube.com/watch?v=-nd6JFw52j0)
+- [How to Create a Quiz App in Django with Javascript](https://www.youtube.com/watch?v=vXXfXRf2S4M)
+- [Quiz Application using Django](https://www.geeksforgeeks.org/quiz-application-using-django/)
+- [How to Create a Quiz Web Application with Python Django](https://data-flair.training/blogs/create-quiz-application-python-django/)
+- [Python Django Projects with Source Code (Beginners to Advanced)](https://www.geeksforgeeks.org/django-projects/)
+- [Django Quiz App Code](https://github.com/pamelafox/django-quiz-app)
+- [Python Django 7 hour course](https://youtu.be/PtQiiknWUcI)
 - [Mongo and Crud Relationships](https://www.youtube.com/watch?v=UpsZDGutpZc)
+- [React Quiz App Code](https://github.com/CodeWithClinton/react_quiz_app)
