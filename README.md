@@ -192,7 +192,8 @@ Serve React app from Django:
 
 Schematic:
 Code
-Django (Backend)
+
+#### Django (Backend)
 ├── models.py (Quiz, Question, Answer)
 
 ├── serializers.py 
@@ -201,8 +202,8 @@ Django (Backend)
 
 ├── urls.py
 
-<p>
-React (Frontend)
+
+#### React (Frontend)
 ├── components/
 
 │   ├── QuizList.js
