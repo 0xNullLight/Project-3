@@ -17,11 +17,12 @@ As a user, I want to be able to pull up a quiz and have it ask me questions I sh
  - [User Story](https://github.com/0xNullLight/Project-3/blob/main/README.md#bootcamp-quiz)
  - [Project Setup]()
  - [Project Description]()
+ - [Project Requirements](https://github.com/0xNullLight/Project-3?tab=readme-ov-file#project-requirements)
  - [Required Modules]()
  - [Installation]()
  - [Usage]()
  - [Testing]()
- - [Contributing]()
+ - [Contributors](https://github.com/0xNullLight/Project-3?tab=readme-ov-file#contributors)
  - [Questions]()
 
 ## Acceptance Criteria
@@ -68,6 +69,18 @@ Instead of using a CSS library like Bootstrap, consider one of the following sug
 - Try using a component library, such as Semantic UI, Chakra UI, or Ant Design.
 - Create all the CSS for your application just using CSS.
 - Regardless of which of these options you choose—it must look professional and be mobile-friendly.
+
+PRESENTATION REQUIREMENTS 
+
+Your formal, 10-minute presentation must include the following: 
+- Your Applications overall concept
+- The motivation of your applications development
+- Your Design Process
+- Technologies used (and a brief description of how they work)
+- A demonstartion of the appplications functionality
+- Directions for future development
+- Sometimes, talking intelligently about tech > doing tech.
+
 
 
 
