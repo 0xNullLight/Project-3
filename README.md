@@ -3,9 +3,79 @@
 A quiz for bootcamp students to help practice understanding terminology and questions you will be asked in the job interview. 
 
 ## Features
-
 - Help JR devolpers study for that job interview
 - Brush up on terminology or languages
+- User Authentication
+- Secure login/signup with email
+- Multiple-choice questions
+- True/false questions
+- Fill-in-the-blank
+
+With endless possibilities of continuation with the application including the following:
+
+Core Features: 
+- Secure login/signup with email or social media accounts.
+- User Authentication and Profiles
+- Profiles that track quiz history, scores, and progress.
+- Customizable Quiz Options
+- Select difficulty levels (e.g., Beginner, Intermediate, Advanced).
+- Choose topics or categories to focus on specific areas of interest.
+- Question Formats
+- Multiple-choice questions.
+- True/false questions.
+- Fill-in-the-blank.
+- Code challenges (for coding bootcamps).
+- Drag-and-drop matching exercises.
+- Timed and Untimed Modes
+- Timed quizzes to simulate test conditions.
+- Untimed practice for relaxed learning.
+- Progress Tracking
+- Dashboard with a summary of completed quizzes, scores, and areas for improvement.
+- Detailed reports on performance metrics (e.g., time per question, accuracy by topic).
+- Engagement Features
+- Gamification Elements
+- Badges and achievements for milestones (e.g., "First 10 Quizzes Completed").
+- Leaderboards to encourage competition among users.
+- Feedback and Explanations
+- Instant feedback on answers.
+- Detailed explanations for correct/incorrect answers.
+- Resources for further study linked to specific questions.
+- Adaptive Quizzing
+- Adjust difficulty dynamically based on user performance.
+- Recommend new quizzes based on weak areas.
+- Community Features
+- Discussion boards or forums for quiz-related questions.
+- Peer challenges to compete with friends or classmates.
+
+Advanced Features:
+
+- Personalized Learning Paths
+- Suggest quizzes based on the user’s performance history.
+- Pre-built modules to prepare for specific tests or certifications.
+- Offline Access
+- Download quizzes for offline use.
+- Sync scores once back online.
+- Real-Time Analytics for Educators
+- For bootcamps with instructors, provide a dashboard to monitor student progress.
+- Identify trends and areas where students struggle.
+- Interactive Learning
+- Include hints or clues for challenging questions.
+- Incorporate video explanations for complex topics.
+- Mock Exams and Certifications
+- Full-length mock tests with a grading system.
+- Printable or digital certificates upon completing certain milestones.
+
+Admin Features:
+
+- Question Bank Management
+- Add, edit, or delete quiz questions.
+- Categorize and tag questions for easy retrieval.
+- Custom Quiz Creation
+- Allow instructors or users to create and share custom quizzes.
+- Randomize question order for each attempt.
+- Performance Insights
+- Analytics to track user engagement, completion rates, and average scores.
+
 
 ## User Story
 
@@ -31,25 +101,10 @@ As a user, I want to be able to pull up a quiz and have it ask me questions I sh
 - 
 - 
 
-## Project Setup
-
-![Quiz outline]()
-
-* Cars
-  * id: Name String
-  * make: id name string
-  * Model: id name string
-  * Year: id year int
-  * Price: id amount decimal
 
 
-### Frontend Details
+## Project Description
 
-The front end will provide the user interface for quiz questions and answers.
-
-### Backend Details
-
-The backend will .
 
 ## Project Requirements
 
@@ -81,12 +136,33 @@ Your formal, 10-minute presentation must include the following:
 - Directions for future development
 - Sometimes, talking intelligently about tech > doing tech.
 
+## Project Setup
+
+![Quiz outline]()
+
+* Cars
+  * id: Name String
+  * make: id name string
+  * Model: id name string
+  * Year: id year int
+  * Price: id amount decimal
+
+
+### Frontend Details
+
+The front end will provide the user interface for quiz questions and answers and be created by using React.
+
+### Backend Details
+
+The backend language will be created using Python and Django.
 
 
 
 ### Required Modules
 
-- 
+- Python
+- React
+- Django
 - 
 
 
@@ -96,10 +172,10 @@ Your formal, 10-minute presentation must include the following:
 1. Clone the repository:  
    `git clone https://github.com/0xNullLight/Project-3
 2. Install dependencies:  
-   `npm install`
-3. Set up the PostgreSQL database using the provided schema.
+   ``
+3. Set up the database using the provided schema.
 4. Run the application:  
-   `npm start`
+   ``
 
   
 
@@ -109,11 +185,12 @@ _A video demonstration link will be added here once the project is fully impleme
 
 ## Usage
 
-After installation, launch the app to search for vehicles, compare them and add your preferred vehicle to the shopping cart for purchase.
+After installation, launch the app and take the quiz.
 
-* Npm Build
-* Npm Seed
-* Npm Start
+How to launch the application:
+* 
+* 
+* 
 
 ## Testing
 
@@ -144,3 +221,4 @@ Claree Ratliff
 - [Python Django 7 hour course](https://youtu.be/PtQiiknWUcI)
 - [Mongo and Crud Relationships](https://www.youtube.com/watch?v=UpsZDGutpZc)
 - [React Quiz App Code](https://github.com/CodeWithClinton/react_quiz_app)
+- [Django Documentation Organization](https://docs.djangoproject.com/en/5.0/)
