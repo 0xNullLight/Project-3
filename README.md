@@ -50,7 +50,7 @@ The front end will provide the user interface for quiz questions and answers.
 
 The backend will .
 
-## Project Description
+## Project Requirements
 
 - Must use React for Front end
 - Python as your back-end language
