@@ -80,7 +80,7 @@ Admin Features:
 
 ## User Story
 
-As a user, I want to be able to pull up a quiz and have it ask me questions I should know for that job interview, 
+As a user, I want to be able to pull up a quiz and have it ask me questions I should know for that job interview
 or allow me to brush up on terminology or language or maybe even OOP in a fun learning application
   
 
