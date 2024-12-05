@@ -1,4 +1,4 @@
-# Bootcamp Quiz
+# **Bootcamp Quiz**
 
 A quiz for bootcamp students to help practice understanding terminology and questions you will be asked in the job interview. 
 This is a simple beginner application that anyone with almost no coding experiance should be able to pull together.
