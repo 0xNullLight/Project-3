@@ -249,6 +249,10 @@ Deploy:
 
 Here's a more detailed breakdown of the steps:
 
+### Backend Details
+
+The backend language will be created using Python and Django.
+
 #### Backend (Django):
 Python
 
@@ -266,6 +270,10 @@ class Answer(models.Model):
     question = models.ForeignKey(Question, on_delete=models.CASCADE)
     text = models.CharField(max_length=200)
     is_correct = models.BooleanField(default=False)
+
+### Frontend Details
+
+The front end will provide the user interface for quiz questions and answers and be created by using React.
 
 #### Frontend (React):
 JavaScript
@@ -287,7 +295,7 @@ function Quiz() {
   );
 }
 
-## Important Considerations for future development:
+#### Important Considerations for future development:
 
 Authentication: Implement user authentication if you want to track user-specific data.
 
@@ -298,17 +306,8 @@ Testing: Write tests to ensure the functionality of your app.
 Scalability: Consider how your app will handle large amounts of data and traffic.
 
 
-### Frontend Details
 
-The front end will provide the user interface for quiz questions and answers and be created by using React.
-
-### Backend Details
-
-The backend language will be created using Python and Django.
-
-
-
-### Required Modules
+### Required Modules and languages
 
 - Python
 - React
