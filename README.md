@@ -1,4 +1,4 @@
-# Bootcamp Quiz
+# **Bootcamp Quiz**
 
 A quiz for bootcamp students to help practice understanding terminology and questions you will be asked in the job interview. 
 This is a simple beginner application that anyone with almost no coding experiance should be able to pull together.
@@ -12,9 +12,10 @@ This is a simple beginner application that anyone with almost no coding experian
 - True/false questions
 - Fill-in-the-blank
 
-With endless possibilities of continuation with the application including the following ideas:
+#### With endless possibilities of continuation with the application including the following ideas:
 
 Core Features: 
+
 - Secure login/signup with email or social media accounts.
 - User Authentication with Profile
 - Profiles that track quiz history, scores, and progress.
