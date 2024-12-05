@@ -80,7 +80,8 @@ Admin Features:
 
 ## User Story
 
-As a user, I want to be able to pull up a quiz and have it ask me questions I should know for that job, or brush up on terminology or languages or maybe even OOP. 
+As a user, I want to be able to pull up a quiz and have it ask me questions I should know for that job interview, 
+or allow me to brush up on terminology or language or maybe even OOP in a fun learning quiz
   
 
 
@@ -99,9 +100,11 @@ As a user, I want to be able to pull up a quiz and have it ask me questions I sh
  - [Questions]()
 
 ## Project Description
-
+- a simple application that quizzes the user
 - log in page with email 
 - Quiz page
+- Front End React
+- Back End Python
 
 ## Project Requirements
 
@@ -133,7 +136,6 @@ Your formal, 10-minute presentation must include the following:
 - Directions for future development
 - Sometimes, talking intelligently about tech > doing tech.
 
-## Project Setup
 
 ### Schematics
 
@@ -207,6 +209,8 @@ Workflow:
 - React app submits answers to Django API.
 - Django API calculates score and returns results.
 - React app displays results.
+
+## Project Setup
 
 ### Outline
 
