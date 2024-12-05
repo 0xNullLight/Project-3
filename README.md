@@ -15,6 +15,7 @@ This is a simple beginner application that anyone with almost no coding experian
 With endless possibilities of continuation with the application including the following ideas:
 
 Core Features: 
+
 -Secure login/signup with email or social media accounts.
 - User Authentication with Profile
 - Profiles that track quiz history, scores, and progress.
