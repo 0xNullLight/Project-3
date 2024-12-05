@@ -195,25 +195,17 @@ Code
 
 #### Django (Backend)
 ├── models.py (Quiz, Question, Answer)
-
 ├── serializers.py 
-
 ├── views.py (API endpoints)
-
 ├── urls.py
 
 
 #### React (Frontend)
 ├── components/
-
 │   ├── QuizList.js
-
 │   ├── Quiz.js
-
 │   ├── Question.js
-
 │   └── Results.js
-
 ├── App.js 
 
 Workflow:
