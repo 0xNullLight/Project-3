@@ -1,6 +1,6 @@
 # Bootcamp Quiz
 
-A quiz for bootcamp students to help practice understanding terminology and questions you will be asked in the job interview.
+A quiz for bootcamp students to help practice understanding terminology and questions you will be asked in the job interview. 
 
 ## Features
 
