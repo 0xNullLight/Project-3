@@ -16,7 +16,7 @@ With endless possibilities of continuation with the application including the fo
 
 Core Features: 
 
--Secure login/signup with email or social media accounts.
+- Secure login/signup with email or social media accounts.
 - User Authentication with Profile
 - Profiles that track quiz history, scores, and progress.
 - Customizable Quiz Options
