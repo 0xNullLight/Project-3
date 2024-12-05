@@ -271,6 +271,7 @@ Serve React app from Django:
 - Set up Cross-Origin Resource Sharing (CORS) in Django to allow your React app to make requests to the API.
 
 Schematic:
+[Schematic](assests/QuizSchematic.png)
 Code
 
 #### Django (Backend)
