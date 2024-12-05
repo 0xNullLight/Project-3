@@ -12,7 +12,7 @@ A quiz for bootcamp students to help practice understanding terminology and ques
 As a user, I want to be able to pull up a quiz and have it ask me questions I should know for that job, or brush up on terminology or languages or maybe even OOP
 
 ## Table of Contents
-
+ - [Project Name](https://github.com/0xNullLight/Project-3/blob/main/README.md#bootcamp-quiz)
  - [User Story]()
  - [Project Setup]()
  - [Project Description]()
