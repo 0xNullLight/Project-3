@@ -359,7 +359,7 @@ Claree Ratliff
 
 
 
-### Resources
+## Resources
 
 - [Django Project Complete Step by Step](https://www.youtube.com/watch?v=s0aCEXg3ct4)
 - [Quiz App using Django](https://www.geeksforgeeks.org/quiz-application-using-django/)
