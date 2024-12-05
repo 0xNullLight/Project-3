@@ -201,7 +201,7 @@ Django (Backend)
 ├── views.py (API endpoints)
 
 ├── urls.py
-
+<p>
 React (Frontend)
 ├── components/
 
