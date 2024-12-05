@@ -1,6 +1,7 @@
 # Bootcamp Quiz
 
 A quiz for bootcamp students to help practice understanding terminology and questions you will be asked in the job interview. 
+This is a simple beginner application that anyone with almost no coding experiance should be able to pull together.
 
 ## Features
 - Help JR devolpers study for that job interview
@@ -11,11 +12,11 @@ A quiz for bootcamp students to help practice understanding terminology and ques
 - True/false questions
 - Fill-in-the-blank
 
-With endless possibilities of continuation with the application including the following:
+With endless possibilities of continuation with the application including the following ideas:
 
 Core Features: 
 - Secure login/signup with email or social media accounts.
-- User Authentication and Profiles
+- User Authentication with Profile
 - Profiles that track quiz history, scores, and progress.
 - Customizable Quiz Options
 - Select difficulty levels (e.g., Beginner, Intermediate, Advanced).
@@ -79,7 +80,9 @@ Admin Features:
 
 ## User Story
 
-As a user, I want to be able to pull up a quiz and have it ask me questions I should know for that job, or brush up on terminology or languages or maybe even OOP
+As a user, I want to be able to pull up a quiz and have it ask me questions I should know for that job, or brush up on terminology or languages or maybe even OOP. 
+  
+
 
 ## Table of Contents
  - [Project Name](https://github.com/0xNullLight/Project-3/blob/main/README.md#bootcamp-quiz)
@@ -105,6 +108,8 @@ As a user, I want to be able to pull up a quiz and have it ask me questions I sh
 
 ## Project Description
 
+- log in page with email 
+- Quiz page
 
 ## Project Requirements
 
@@ -138,14 +143,158 @@ Your formal, 10-minute presentation must include the following:
 
 ## Project Setup
 
-![Quiz outline]()
+### Schematics
 
-* Cars
-  * id: Name String
-  * make: id name string
-  * Model: id name string
-  * Year: id year int
-  * Price: id amount decimal
+Building a quiz app with React, Django, and Python involves several steps. Here's a schematic to get you started:
+
+Backend (Django):
+- Set up Django project:
+- Create a new Django project.
+- Create a Django app for your quiz functionality.
+
+Models:
+Define models for:
+- Quiz (title, description, etc.)
+- Question (question text, quiz it belongs to)
+- Answer (answer text, whether it's correct, question it belongs to)
+- API endpoints (Django Rest Framework):
+- Create API endpoints for:
+- Retrieving quizzes
+- Retrieving questions for a specific quiz
+- Submitting user answers
+- Calculating and returning scores
+
+Frontend (React):
+- Set up React project:
+- Create a new React app.
+
+Components:
+Create components for:
+- Quiz list
+- Quiz taking interface (displaying questions and answer choices)
+- Result display
+
+API integration:
+- Use fetch or a library like axios to make requests to the Django API endpoints.
+
+State management:
+Use React's built-in state management or a library like Redux to manage:
+- Selected quiz
+- Current question
+- User answers
+- Score
+
+Integration:
+Serve React app from Django:
+- Configure Django to serve your built React app (usually in the static folder).
+- CORS configuration:
+- Set up Cross-Origin Resource Sharing (CORS) in Django to allow your React app to make requests to the API.
+
+Schematic:
+Code
+
+Django (Backend)
+├── models.py (Quiz, Question, Answer)
+├── serializers.py 
+├── views.py (API endpoints)
+├── urls.py
+
+React (Frontend)
+├── components/
+│   ├── QuizList.js
+│   ├── Quiz.js
+│   ├── Question.js
+│   └── Results.js
+├── App.js 
+
+Workflow:
+- User selects a quiz from the list (React).
+- React app fetches quiz questions from Django API.
+- User answers questions (React).
+- React app submits answers to Django API.
+- Django API calculates score and returns results.
+- React app displays results.
+
+### Outline
+
+Building a quiz app with React, Django, and Python is a great way to learn full-stack development. Here's a high-level overview of the steps involved:
+
+1. Backend (Django):
+Set up Django: Create a new Django project and app.
+Create Models: Define models for Quizzes, Questions, Answers, and potentially User responses.
+Create API Endpoints: Use Django REST Framework (DRF) or a similar library to create API endpoints for:
+Fetching quizzes and their questions
+Submitting user responses
+Calculating scores
+Retrieving results
+
+2. Frontend (React):
+Set up React: Create a new React project using Create React App or a similar tool.
+Design Components: Create components for:
+Quiz display
+Question display
+Answer options
+Progress bar
+Timer (if applicable)
+Results display
+Fetch Data: Use fetch or a library like axios to fetch quiz data from the Django API.
+Handle User Input: Manage user responses, track progress, and handle timer logic (if applicable).
+Submit Responses: Send user responses to the Django API for scoring and storage.
+Display Results: Fetch and display quiz results from the Django API.
+
+3. Integration:
+Configure CORS:
+Ensure your Django backend allows requests from your React frontend (likely running on different ports during development).
+Deploy:
+Deploy both your Django backend and React frontend to appropriate hosting services.
+Here's a more detailed breakdown of the steps:
+Backend (Django):
+Python
+
+
+# models.py
+from django.db import models
+
+class Quiz(models.Model):
+    title = models.CharField(max_length=200)
+
+class Question(models.Model):
+    quiz = models.ForeignKey(Quiz, on_delete=models.CASCADE)
+    text = models.TextField()
+
+class Answer(models.Model):
+    question = models.ForeignKey(Question, on_delete=models.CASCADE)
+    text = models.CharField(max_length=200)
+    is_correct = models.BooleanField(default=False)
+Frontend (React):
+JavaScript
+
+// Quiz.js
+import React, { useState, useEffect } from 'react';
+
+function Quiz() {
+  const [quiz, setQuiz] = useState(null);
+
+  useEffect(() => {
+    fetch('/api/quizzes/1/') // Fetch quiz data
+      .then(response => response.json())
+      .then(data => setQuiz(data));
+  }, []);
+
+  return (
+    // Render quiz component based on fetched data
+  );
+}
+
+Important Considerations:
+
+Authentication: Implement user authentication if you want to track user-specific data.
+
+Error Handling: Handle errors gracefully on both the frontend and backend.
+
+Testing: Write tests to ensure the functionality of your app.
+
+Scalability: Consider how your app will handle large amounts of data and traffic.
 
 
 ### Frontend Details
@@ -163,7 +312,8 @@ The backend language will be created using Python and Django.
 - Python
 - React
 - Django
-- 
+- CSS
+- Javascript
 
 
 
