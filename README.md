@@ -119,7 +119,7 @@ or allow me to brush up on terminology or language or maybe even OOP in a fun le
 
 Building a quiz app with React, Django, and Python involves several steps.
 
-[Schematic]()
+[Schematic](assets/image_720-5.png)
 
 Backend (Django):
 - Set up Django project:
