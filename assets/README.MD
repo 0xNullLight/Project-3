@@ -61,3 +61,4 @@ Path convertors:
 - slug – Matches any slug string, i.e. a string consisting of alphabets, digits, hyphen and under score.
 - path – Matches any non-empty string including the path separator(‘/’)
 - uuid – Matches a UUID(universal unique identifier).
+
