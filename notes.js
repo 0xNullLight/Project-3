@@ -1,7 +1,8 @@
 document.addEventListener("DOMContentLoaded", () => {
     // Sample markdown files array (in a real application, this could be dynamic)
     const markdownFiles = [
-        { name: "Django For JavaScript Developers", url: "./markdown/Django_for_JavaScript_Developers.md" }
+        { name: "Django For JavaScript Developers", url: "./markdown/Django_for_JavaScript_Developers.md" },
+        { name: "Installing Virtual Environment for Python in Visual Studio to Work on Django", url: "./markdown/Installing_Virtual_Environment_for_Python_in_Visual_Studio_to_Work_on_Django.md" }
     ];
     
     const dropdownEl = document.getElementById("file-dropdown");
