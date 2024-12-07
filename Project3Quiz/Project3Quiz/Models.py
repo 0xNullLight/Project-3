@@ -35,4 +35,14 @@ def __str__(self):
         def __str__(self):
             return self.answer
         
-    
+    #Class that defines the QuestionOption model, question, option, is_correct and question fields
+    class QuestionOption(models.Model):
+        question = models.ForeignKey(Question, on_delete=models.CASCADE)
+        option = models.CharField(max_length=1000)
+        is_correct = models.BooleanField()
+        def __str__(self):
+            return self.option
+        def __str__(self):
+            return self.is_correct
+        def __str__(self):
+            return self.question    
