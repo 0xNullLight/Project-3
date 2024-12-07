@@ -4,7 +4,9 @@ from django.apps import AppConfig
 
 # TO DO: Must create a Class that inherits from the Config class
 # # This class will hold the configuration for the application
-
+class Project3QuizConfig(AppConfig):
+    name = 'Project3Quiz'
+    default_auto_field = 'django.db.models.BigAutoField'
 
 
 
