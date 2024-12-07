@@ -1,5 +1,4 @@
-
-# **How to Set Up a Django Development Environment in Visual Studio Code (Windows, macOS, Linux)**
+# **Installing Virtual Environment for Python in Visual Studio to Work on Django (Windows, macOS, Linux)**
 
 This tutorial will guide you through setting up a Django development environment on Windows, macOS, and Linux. You will also learn how to use Visual Studio Code (VSCode) to work on Django projects, including installing Python, creating a virtual environment, setting up Django, and running your first Django project.
 
