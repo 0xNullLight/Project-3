@@ -54,56 +54,15 @@ When building web applications with Django, developers often choose between two 
     -   **SEO Challenges**: Client-side rendering can hinder SEO unless using tools like Next.js.
 
 ----------
-
-### **Comparison Table**
-
-**Feature**
-
-**Django-Only Website**
-
-**React + Django Website**
-
-**Frontend Rendering**
-
-Server-side
-
-Client-side
-
-**Backend Role**
-
-Handles both logic and views
-
-API provider only
-
-**Interactivity**
-
-Limited, less dynamic
-
-Highly interactive
-
-**Page Updates**
-
-Full/Partial reload
-
-Seamless SPA updates
-
-**Development Complexity**
-
-Lower
-
-Higher
-
-**SEO**
-
-Excellent (Server-Side Rendering)
-
-Requires additional work
-
-**Best Use Case**
-
-Small websites, SEO-focused
-
-Large, interactive SPAs
+| **Feature**                 | **Django-Only Website**       | **React + Django Website**  |
+|-----------------------------|-------------------------------|-----------------------------|
+| **Frontend Rendering**      | Server-side                  | Client-side                |
+| **Backend Role**            | Handles both logic and views | API provider only          |
+| **Interactivity**           | Limited, less dynamic         | Highly interactive          |
+| **Page Updates**            | Full/Partial reload          | Seamless SPA updates       |
+| **Development Complexity**  | Lower                        | Higher                     |
+| **SEO**                     | Excellent (Server-Side Rendering) | Requires additional work |
+| **Best Use Case**           | Small websites, SEO-focused  | Large, interactive SPAs    |
 
 ----------
 
