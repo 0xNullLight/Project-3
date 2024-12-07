@@ -8,6 +8,6 @@ from django.apps import AppConfig
 
 
 
-#In summary this code defines the configuration for the quizapp application, specifying that
+#In summary this code defines the configuration for the quiz application, specifying that
 # the default type of auto field to use is the BigAutoField and that they are setting name of 
 # the app to quizapp.  This configuration class is used by Django to set up the app correctly
