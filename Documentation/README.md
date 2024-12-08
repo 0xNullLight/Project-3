@@ -23,3 +23,4 @@ It is a good practice to have a URLConf module for every app in Django. This mod
 [Django URL Patterns in Python](https://www.geeksforgeeks.org/django-url-patterns-python/)
 
 
+[how to set up react & vite](https://dev.to/mcbarna/setup-react-with-vite-on-vscode-a-step-by-step-tutorial-591g)
