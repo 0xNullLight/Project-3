@@ -3,6 +3,8 @@
 from django.contrib import admin
 from .Models import Student, Question, QuestionOption
 
+#imports the Student, Question, and QuestionOption models from the .models module
+#and registers them with the admin panel
 @admin.register(Student)
 class StudentAdmin(admin.ModelAdmin):
     list_display = ['username', 'score', 'status']
