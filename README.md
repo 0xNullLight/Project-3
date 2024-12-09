@@ -383,6 +383,8 @@ Claree Ratliff
 - [React Quiz App Code](https://github.com/CodeWithClinton/react_quiz_app)
 - [Django Documentation Organization](https://docs.djangoproject.com/en/5.0/)
 - [How to deploy a Django app on Render](https://testdriven.io/blog/django-render/)
+- [Django URLs and Views in Python](https://medium.com/@austineokafor.e/django-urls-and-views-in-python-8876c1137974)
+- 
 
 ## Questions
 - Please contact us with any question through Github
