@@ -38,3 +38,5 @@ Things to discuss today:
 
 - Claree and Amanda will discuss their plan of action.
 
+- Review what needs to get done
+
