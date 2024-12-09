@@ -24,6 +24,8 @@ Brandi went over expectations with Claree and explained that Claree needed to de
 
 - Brandi has created and coded most of the template for the server side of the application.
 
+- Brandi and Bee met at 6:45pm Brandi updated Bee on progress.
+
 - Bee has done a deep dive on Render and has deployed the server onto Render successfully.
 
 - Amanda will be updated on Monday during class.
