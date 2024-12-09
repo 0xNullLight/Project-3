@@ -31,3 +31,10 @@ Brandi went over expectations with Claree and explained that Claree needed to de
 - Amanda will be updated on Monday during class.
 
 ### Monday Dec 9, 2024
+
+Things to discuss today:
+
+- Brandi and Bee need to discuss how to add the Rest framework to Django 
+
+- Claree and Amanda will discuss their plan of action.
+
