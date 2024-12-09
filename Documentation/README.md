@@ -31,32 +31,5 @@ It is a good practice to have a URLConf module for every app in Django. This mod
 
 # Render to Django
 
-Explanation:
-1. Import:
-We import the render function from django.shortcuts.
-2. View Function:
-We define a view function called my_view that takes a request object as its argument.
-3. Context:
-We create a dictionary called context to hold the data that we want to pass to the template. In this example, we're passing a name and an age.
-4. Render:
-We use the render function to render the template my_template.html with the given context. This function returns an HttpResponse object containing the rendered HTML.
-Template Example (my_template.html):
-Code
 
-<!DOCTYPE html>
-<html>
-<head>
-    <title>My Template</title>
-</head>
-<body>
-    <h1>Hello, {{ name }}!</h1>
-    <p>You are {{ age }} years old.</p>
-</body>
-</html>
-Key Points:
-Template Location:
-Make sure your template file (my_template.html) is located in a directory that is configured in your Django project's TEMPLATES settings.
-Context Data:
-You can pass any type of data in the context dictionary, including lists, dictionaries, and objects.
-Template Language:
-Django's template language allows you to use variables, tags, and filters to dynamically generate HTML content.
+[How to deploy Django on Render](https://www.youtube.com/watch?v=FJBTwa0R_5g)
