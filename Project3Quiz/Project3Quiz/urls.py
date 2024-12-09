@@ -8,6 +8,7 @@ from . import views
 
 # URL patterns for the app
 urlpatterns = [
-    path("questions/", views.Questions, name="question_list"),
-    
+    path("questions/", views.questions, name="question_list"),
+    path("has answered questions/", views.has_answered_questions, name="has_answered_questions"),
+    path("")
 ]
