@@ -380,7 +380,6 @@ Claree Ratliff
 - [Python Django Projects with Source Code (Beginners to Advanced)](https://www.geeksforgeeks.org/django-projects/)
 - [Django Quiz App Code](https://github.com/pamelafox/django-quiz-app)
 - [Python Django 7 hour course](https://youtu.be/PtQiiknWUcI)
-- [Mongo and Crud Relationships](https://www.youtube.com/watch?v=UpsZDGutpZc)
 - [React Quiz App Code](https://github.com/CodeWithClinton/react_quiz_app)
 - [Django Documentation Organization](https://docs.djangoproject.com/en/5.0/)
 - [How to deploy a Django app on Render](https://testdriven.io/blog/django-render/)
