@@ -22,10 +22,10 @@
 - Claree and Brandi met at 9:00 am 
 Brandi went over expectations with Claree and explained that Claree needed to deploy the React and Vite by Monday on a seperate Branch.
 
-Brandi has created and coded most of the template for the server side of the application.
+- Brandi has created and coded most of the template for the server side of the application.
 
-Bee has done a deep dive on Render and has deployed the server onto Render successfully.
+- Bee has done a deep dive on Render and has deployed the server onto Render successfully.
 
-Amanda will be updated on Monday during class.
+- Amanda will be updated on Monday during class.
 
 ### Monday Dec 9, 2024
