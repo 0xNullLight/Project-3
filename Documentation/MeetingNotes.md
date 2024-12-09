@@ -10,7 +10,11 @@
 
 - Amanda is responsible for the management of the client side of the application.
 
-- Bee is responsible for deploying the server to Render. 
+- Bee and Brandi will code the server side, deal with the api and JWT token.
+
+- Brandi is responsible for the template for the application.  She will do the files from looking at similar projects, asking AI and running schematics for an outline.
+
+- Bee is responsible for deploying the server to Render, deep diving with Django and anything else that comes up. 
 
 
 ### Sunday Dec 8, 2024
