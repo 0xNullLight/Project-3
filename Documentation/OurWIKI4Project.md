@@ -1,3 +1,13 @@
+# DJANGO REST FRAMEWORK
+
+[Django Rest Framework](https://www.geeksforgeeks.org/django-rest-framework-installation/)
+
+[Django Rest Framework](https://www.django-rest-framework.org/tutorial/quickstart/)
+
+[Basic API with Rest and Django](https://www.geeksforgeeks.org/how-to-create-a-basic-api-using-django-rest-framework/)
+
+[Python Django REST API In 30 Minutes - Django Tutorial](https://www.youtube.com/watch?v=NoLF7Dlu5mc)
+
 # Python Documentation
 
 [IMPORTANT INFORMATION FOR : Python 3.13 or newer for Mac users](https://docs.brew.sh/Homebrew-and-Python)
