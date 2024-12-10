@@ -323,8 +323,8 @@ Scalability: Consider how your app will handle large amounts of data and traffic
 - Python
 - React
 - Django
-- CSS
-- Javascript
+- JSX stands for JavaScript XML
+- Render
 
 
 
