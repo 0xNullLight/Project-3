@@ -1,6 +1,7 @@
 from django.db import models
 
-# Create your models here.
+# Created models here.
+
 # Quiz model
 class Quiz(models.Model):
     id = models.CharField(max_length=255, primary_key=True)  # PK

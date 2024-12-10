@@ -4,16 +4,16 @@ from .models import Quiz, Question, QuizAttempt
 class QuestionSerializer(serializers.ModelSerializer):
     class Meta:
         model = Question
-        fields = ['id', 'text', 'options', 'correctAnswer', 'difficulty', 'points']
+        fields = ['__all__']
 
 class QuizSerializer(serializers.ModelSerializer):
     questions = QuestionSerializer(many=True)
 
     class Meta:
         model = Quiz
-        fields = ['id', 'title', 'description', 'questions', 'difficulty', 'timeLimit']
+        fields = ['__all__']
 
 class QuizAttemptSerializer(serializers.ModelSerializer):
     class Meta:
         model = QuizAttempt
-        fields = ['id', 'userId', 'answers', 'score', 'completedAt']
+        fields = ['__all__']

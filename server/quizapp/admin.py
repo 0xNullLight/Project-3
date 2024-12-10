@@ -1,5 +1,4 @@
 # imports from django.contrib and models from the current directory
-
 from django.contrib import admin
 from .models import Quiz, Question, QuizAttempt
 
