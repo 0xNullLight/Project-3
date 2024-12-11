@@ -333,7 +333,9 @@ Scalability: Consider how your app will handle large amounts of data and traffic
 1. Clone the repository:  
    `git clone https://github.com/0xNullLight/Project-3
 2. Install dependencies:  
-   ``
+   - If you do not have virtual environment installed.  Follow directions here.
+   [Virtual Environment]()
+   - 
 3. Set up the database using the provided schema.
 4. Run the application:  
    ``
