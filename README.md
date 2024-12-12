@@ -341,12 +341,15 @@ Scalability: Consider how your app will handle large amounts of data and traffic
    - [Creating a virtual Environment](https://docs.python.org/3/library/venv.html)
    
    - RestFramework
+     
      `pip install djangorestframework`
 
    - Pulls all required modules in project
+     
      `pip freeze > requirements.txt`
 
     - Installs the modules
+      
       `pip install -r requirements.txt`
 
 3. Run the application:  
