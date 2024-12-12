@@ -335,7 +335,7 @@ Scalability: Consider how your app will handle large amounts of data and traffic
 2. Install dependencies:  
    - If you do not have virtual environment installed.  Follow directions here.
    in this video from about 16 mins to 24 mins.
-   [Virtual Environment Installation]()
+   [Virtual Environment Installation](https://youtu.be/PtQiiknWUcI)
    - 
    ### RestFramework
    `pip install djangorestframework`
