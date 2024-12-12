@@ -1,15 +1,18 @@
 import React from 'react';
 import styled from 'styled-components';
 
+// part of larger layout of page
 const Page = styled.div`
   position: absolute;
   top: -1169px;
   left: 7502px;
   width: 1920px;
   height: 1204px;
+  // background color of page (dark grey)
   background: #111518;
 `;
 
+// container for logo
 const Container = styled.div`
   position: absolute;
   top: 0;
@@ -21,7 +24,7 @@ const Container = styled.div`
   box-shadow: 0 0 1px rgba(23, 26, 31, 0.07),
               0 0 2px rgba(23, 26, 31, 0.12);
 `;
-
+// logo image
 const Logo = styled.img`
   position: absolute;
   top: 33px;
@@ -30,7 +33,7 @@ const Logo = styled.img`
   height: 33px;
   border-radius: 6px;
 `;
-
+// heading text
 const Heading = styled.h1`
   position: absolute;
   top: 254px;
@@ -42,7 +45,7 @@ const Heading = styled.h1`
   font-weight: 700;
   color: #A1A5A7;
 `;
-
+// button styling and secondary button styling
 const Button = styled.button<{ variant: 'primary' | 'secondary' }>`
   position: absolute;
   padding: 0 20px;
@@ -72,6 +75,7 @@ const Button = styled.button<{ variant: 'primary' | 'secondary' }>`
     }
   `}
 
+
   ${props => props.variant === 'secondary' && `
     top: 20px;
     left: 1726px;
@@ -90,6 +94,7 @@ const Button = styled.button<{ variant: 'primary' | 'secondary' }>`
   }
 `;
 
+// props for welcome screen
 interface WelcomeScreenProps {
   logoSrc: string;
   headingText: string;
