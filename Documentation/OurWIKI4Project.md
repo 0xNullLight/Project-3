@@ -46,18 +46,7 @@ It is a good practice to have a URLConf module for every app in Django. This mod
 ### Basic Query for Python Code
 [Query in Python](https://codeql.github.com/docs/codeql-language-guides/basic-query-for-python-code/)
 
-
-
-# REACT & VITE
-
-[how to set up react & vite](https://dev.to/mcbarna/setup-react-with-vite-on-vscode-a-step-by-step-tutorial-591g)
-
-
-
-
-
-
-# __pycache__ 
+### __pycache__ 
 
 Are folders that are created because When you develop a self-contained Python script, you might not notice anything unusual about your directory structure. However, as soon as your project becomes more complex, you’ll often decide to extract parts of the functionality into additional modules or packages. That’s when you may start to see a __pycache__ folder appearing out of nowhere next to your source files in seemingly random places:
 
@@ -67,7 +56,7 @@ This bytecode enables the interpreter to skip recurring steps, such as lexing an
 
 Remember that while loading the compiled bytecode from __pycache__ makes Python modules import faster, it doesn’t affect their execution speed!
 
-# URLS in Python
+### URLS in Python
 
 [link](https://www.geeksforgeeks.org/django-url-patterns-python/)
 
@@ -118,3 +107,16 @@ Path convertors:
 - slug – Matches any slug string, i.e. a string consisting of alphabets, digits, hyphen and under score.
 - path – Matches any non-empty string including the path separator(‘/’)
 - uuid – Matches a UUID(universal unique identifier).
+
+
+
+# REACT & VITE
+
+[how to set up react & vite](https://dev.to/mcbarna/setup-react-with-vite-on-vscode-a-step-by-step-tutorial-591g)
+
+
+
+
+
+
+
