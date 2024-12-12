@@ -237,7 +237,7 @@ The backend language will be created using Python and Django.
 #### Backend (Django):
 Python
 
-# models.py
+# models.py basecode
 from django.db import models
 
 class Quiz(models.Model):
@@ -257,7 +257,7 @@ class Answer(models.Model):
 The front end will provide the user interface for quiz questions and answers and be created by using React.
 
 #### Frontend (React):
-JavaScript
+JavaScript basecode
 
 // Quiz.js
 import React, { useState, useEffect } from 'react';
