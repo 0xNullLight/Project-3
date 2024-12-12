@@ -12,6 +12,10 @@
 
 [IMPORTANT INFORMATION FOR : Python 3.13 or newer for Mac users](https://docs.brew.sh/Homebrew-and-Python)
 
+### Python queries in Django
+
+[Django queries](https://docs.djangoproject.com/en/5.1/topics/db/queries/)
+
 # Serializers & DJango Rest Framework
 
 
