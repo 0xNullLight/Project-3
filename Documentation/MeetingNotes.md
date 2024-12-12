@@ -40,3 +40,30 @@ Things to discuss today:
 
 - Review what needs to get done
 
+### Wednesday Dec 11, 2024
+
+- Brandi and Bee continued to work on Frontend and have the server up.
+
+- Brandi brought everything up to main and cleaned up files. Bee expanded on Brandi's previous work and created a beautiful backend.  
+
+- Claree finished the questions and uploaded them to the front end.  
+
+- Amanda finished up the front end and showed us all their hardwork.  
+
+Things to be done:
+
+- Amanda and Claree are going to push up their frontend.  
+
+- Bee and Brandi are going to work on deployment and front end to backend connections once front end is on the main.
+
+### Thursday Dec 12, 2024
+
+- Brandi will be gone because of work and will work on project during the day.
+
+- Amanda will be gone and will check in.
+
+- Bee and Claree will work on project during class time.
+
+Things to get done:
+
+- 
