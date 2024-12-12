@@ -12,6 +12,9 @@
 
 [IMPORTANT INFORMATION FOR : Python 3.13 or newer for Mac users](https://docs.brew.sh/Homebrew-and-Python)
 
+### Basic Query for Python Code
+[Query in Python](https://codeql.github.com/docs/codeql-language-guides/basic-query-for-python-code/)
+
 ### Python queries in Django
 
 [Django queries](https://docs.djangoproject.com/en/5.1/topics/db/queries/)
