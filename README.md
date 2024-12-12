@@ -334,11 +334,22 @@ Scalability: Consider how your app will handle large amounts of data and traffic
    `git clone https://github.com/0xNullLight/Project-3
 2. Install dependencies:  
    - If you do not have virtual environment installed.  Follow directions here.
-   [Virtual Environment]()
+   in this video from about 16 mins to 24 mins.
+   [Virtual Environment Installation]()
    - 
-3. Set up the database using the provided schema.
-4. Run the application:  
-   ``
+   ### RestFramework
+   `pip install djangorestframework`
+
+  ### Pulls all required modules in project
+   `pip freeze > requirements.txt`
+
+  ### Installs the modules
+    `pip install -r requirements.txt`
+
+3. Run the application:  
+   `python manage.py runserver`
+   or
+   `python3 manage.py runserver`
 
   
 
