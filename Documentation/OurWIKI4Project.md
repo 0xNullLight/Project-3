@@ -43,6 +43,9 @@ It is a good practice to have a URLConf module for every app in Django. This mod
 
 [IMPORTANT INFORMATION FOR : Python 3.13 or newer for Mac users](https://docs.brew.sh/Homebrew-and-Python)
 
+## The Python Tutorial
+[The Python Tutorial](https://docs.python.org/3/tutorial/index.html)
+
 ### Basic Query for Python Code
 [Query in Python](https://codeql.github.com/docs/codeql-language-guides/basic-query-for-python-code/)
 
