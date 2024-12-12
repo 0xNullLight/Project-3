@@ -46,6 +46,11 @@ It is a good practice to have a URLConf module for every app in Django. This mod
 ## The Python Tutorial
 [The Python Tutorial](https://docs.python.org/3/tutorial/index.html)
 
+### Creating a Virtual Environment
+
+[Creating a virtual Environment](https://docs.python.org/3/library/venv.html)
+
+
 ### Basic Query for Python Code
 [Query in Python](https://codeql.github.com/docs/codeql-language-guides/basic-query-for-python-code/)
 
