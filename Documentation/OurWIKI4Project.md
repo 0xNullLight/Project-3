@@ -1,25 +1,9 @@
-# DJANGO REST FRAMEWORK
-
-[Django Rest Framework](https://www.geeksforgeeks.org/django-rest-framework-installation/)
-
-[Django Rest Framework](https://www.django-rest-framework.org/tutorial/quickstart/)
-
-[Basic API with Rest and Django](https://www.geeksforgeeks.org/how-to-create-a-basic-api-using-django-rest-framework/)
-
-[Python Django REST API In 30 Minutes - Django Tutorial](https://www.youtube.com/watch?v=NoLF7Dlu5mc)
-
-# Python Documentation
-
-[IMPORTANT INFORMATION FOR : Python 3.13 or newer for Mac users](https://docs.brew.sh/Homebrew-and-Python)
-
-### Basic Query for Python Code
-[Query in Python](https://codeql.github.com/docs/codeql-language-guides/basic-query-for-python-code/)
-
+# Django
 ### Python queries in Django
 
 [Django queries](https://docs.djangoproject.com/en/5.1/topics/db/queries/)
 
-# Serializers & DJango Rest Framework
+### Serializers & DJango Rest Framework
 
 
 Serializers allow complex data such as querysets and model instances to be converted to native Python datatypes that can then be easily rendered into JSON, XML or other content types. Serializers also provide deserialization, allowing parsed data to be converted back into complex types, after first validating the incoming data.
@@ -28,7 +12,7 @@ The serializers in REST framework work very similarly to Django's Form and Model
 
 [Django Rest Framework Serializers](https://www.django-rest-framework.org/api-guide/serializers/)
 
-# DJANGO URL Patterns/Python
+### DJANGO URL Patterns/Python
 
 In Django, views are Python functions which take a URL request as parameter and return an HTTP response or throw an exception like 404. Each view needs to be mapped to a corresponding URL pattern. This is done via a Python module called URLConf(URL configuration)
 
@@ -40,16 +24,37 @@ It is a good practice to have a URLConf module for every app in Django. This mod
 [Django URL Patterns in Python](https://www.geeksforgeeks.org/django-url-patterns-python/)
 
 
+### DJANGO REST FRAMEWORK
+
+[Django Rest Framework](https://www.geeksforgeeks.org/django-rest-framework-installation/)
+
+[Django Rest Framework](https://www.django-rest-framework.org/tutorial/quickstart/)
+
+[Basic API with Rest and Django](https://www.geeksforgeeks.org/how-to-create-a-basic-api-using-django-rest-framework/)
+
+[Python Django REST API In 30 Minutes - Django Tutorial](https://www.youtube.com/watch?v=NoLF7Dlu5mc)
+
+### Render to Django
+
+
+[How to deploy Django on Render](https://www.youtube.com/watch?v=FJBTwa0R_5g)
+
+# Python Documentation
+
+[IMPORTANT INFORMATION FOR : Python 3.13 or newer for Mac users](https://docs.brew.sh/Homebrew-and-Python)
+
+### Basic Query for Python Code
+[Query in Python](https://codeql.github.com/docs/codeql-language-guides/basic-query-for-python-code/)
+
+
+
 # REACT & VITE
 
 [how to set up react & vite](https://dev.to/mcbarna/setup-react-with-vite-on-vscode-a-step-by-step-tutorial-591g)
 
 
 
-# Render to Django
 
-
-[How to deploy Django on Render](https://www.youtube.com/watch?v=FJBTwa0R_5g)
 
 
 # __pycache__ 
