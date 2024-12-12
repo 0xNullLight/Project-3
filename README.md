@@ -368,9 +368,11 @@ _A video demonstration link will be added here once the project is fully impleme
 _After installation, launch the app and take the quiz.
 
 How to launch the application:
-* 
-* 
-* 
+
+*    `python manage.py runserver`
+   or
+*    `python3 manage.py runserver`
+
 
 ## Testing
 
