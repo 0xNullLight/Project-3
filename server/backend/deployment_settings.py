@@ -34,14 +34,15 @@ MIDDLEWARE = [
 # Static files configuration
 STATIC_URL = 'static/'
 STATIC_ROOT = BASE_DIR / "staticfiles"
-
-# WhiteNoise storage backend for static files
+# Update the STORAGES configuration
 STORAGES = {
     "staticfiles": {
-        "BACKEND": "whitenoise.storage.CompressedStaticFilesStorage",
+        "BACKEND": "whitenoise.storage.CompressedManifestStaticFilesStorage",
     },
 }
 
+# Add this setting for async static file handling
+STATICFILES_STORAGE = "whitenoise.storage.CompressedManifestStaticFilesStorage"
 # Database configuration with fallback
 DATABASES = {
     'default': dj_database_url.config(
