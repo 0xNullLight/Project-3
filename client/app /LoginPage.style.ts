@@ -1,5 +1,9 @@
+/* This code defines the visual styling for a login page*/
+
+/* imports from package*/
 import styled from 'styled-components';
 
+/* page wrapper*/
 export const PageWrapper = styled.div`
   width: 100%;
   min-height: 100vh;
@@ -9,6 +13,7 @@ export const PageWrapper = styled.div`
   justify-content: center;
 `;
 
+/* container that holds form elements*/
 export const Container = styled.div`
   width: 700px;
   padding: 40px;
@@ -21,6 +26,7 @@ export const Container = styled.div`
   gap: 20px;
 `;
 
+/* this is the text box field for the user to enter their info*/
 export const TextBox = styled.input`
   width: 100%;
   height: 60px;
@@ -44,6 +50,7 @@ export const TextBox = styled.input`
   }
 `;
 
+/* login button with hover and active states*/
 export const LoginButton = styled.button`
   width: 100%;
   height: 92px;

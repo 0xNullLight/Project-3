@@ -2,6 +2,10 @@
 The purpose of this code is to display a simple login form where users 
 can enter their username and password to access the application.*/
 
+/* This is a presentational component, meaning it's responsible for how things look 
+rather than how things work. The actual login functionality (what happens when the 
+button is clicked) is not defined in this code snippet.*/
+
 import styled from 'styled-components';
 
 const LoginPage = () => {
