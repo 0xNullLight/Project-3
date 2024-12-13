@@ -42,3 +42,12 @@ DATABASES = {
         conn_max_age=600
     )
 }
+
+# Add this line after the INSTALLED_APPS section
+SITE_ID = 1
+
+# Make sure CORS_ALLOWED_ORIGINS includes your frontend URL
+CORS_ALLOWED_ORIGINS = [
+    'https://' + os.environ.get('RENDER_EXTERNAL_HOSTNAME', ''),
+    'http://localhost:5173'
+]
