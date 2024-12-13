@@ -1,5 +1,8 @@
+/* styled-components  for the last page of application */
+
 import styled from 'styled-components';
 
+/* page wrapper */
 const PageWrapper = styled.div`
   position: absolute;
   top: -1208px;
@@ -8,7 +11,7 @@ const PageWrapper = styled.div`
   height: 1201px;
   background: #323842;
 `;
-
+/* Creates a large prominant title text*/
 const Title = styled.h1`
   position: absolute;
   top: 88px;
@@ -20,6 +23,7 @@ const Title = styled.h1`
   color: #FFF;
 `;
 
+/* Component maintains consistent secondary headings*/
 const Subtitle = styled.h2`
   position: absolute;
   top: 174px;
@@ -31,6 +35,7 @@ const Subtitle = styled.h2`
   color: #787F85;
 `;
 
+/* Component maintains consistent text content across the page*/
 const TextContent = styled.p<{ top: number; color: string }>`
   position: absolute;
   top: ${props => props.top}px;
@@ -43,6 +48,7 @@ const TextContent = styled.p<{ top: number; color: string }>`
   width: ${props => props.width || 'auto'};
 `;
 
+/* Buttons are used to navigate the user to the next page*/
 const Button = styled.button<{ primary?: boolean }>`
   position: absolute;
   top: 562px;
@@ -72,7 +78,7 @@ const Button = styled.button<{ primary?: boolean }>`
     opacity: 0.4;
   }
 `;
-
+/* defines a React component called LastScreen that creates a structured page layout with various text elements and buttons.*/
 const LastScreen = () => {
   return (
     <PageWrapper>
