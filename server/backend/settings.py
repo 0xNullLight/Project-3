@@ -37,12 +37,11 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'rest_framework',  # For Django REST Framework
-    'quizapp',          # Your quiz app
-    'userapp',          # Your user app
-    'django.contrib.sites',  # For authentication, if you're using Django allauth (optional)
+    'rest_framework',
+    'quizapp',
+    'userapp',
+    'django.contrib.sites',
 ]
-
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
@@ -72,6 +71,10 @@ TEMPLATES = [
 ]
 
 WSGI_APPLICATION = 'backend.wsgi.application'
+
+CORS_ALLOWED_ORGINS = [
+    'http://localhost:5173'
+]
 
 # Required for Render
 STATIC_ROOT = BASE_DIR/"staticfiles"

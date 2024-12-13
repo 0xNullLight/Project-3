@@ -12,7 +12,6 @@ DEBUG = False
 SECRET_KEY = os.environ.get('SECRET_KEY', 'fallback-secret-key')  # Provide a fallback for local development
 
 MIDDLEWARE = [
-    "corsheaders.middleware.CorsMiddleware",
     'django.middleware.security.SecurityMiddleware',
     # WhiteNoise is required to host Static Files
     'whitenoise.middleware.WhiteNoiseMiddleware',
@@ -23,6 +22,10 @@ MIDDLEWARE = [
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
+
+# CORS_ALLOWED_ORGINS = [
+#     'http://localhost:5173'
+# ]
 
 # Ensure STORAGES is properly formatted
 STORAGES = {
