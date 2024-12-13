@@ -1,3 +1,21 @@
+/* The purpose of this code is to display a consistent welcome page layout with a 
+logo, heading text, and two buttons (primary and secondary). It's built to be 
+reusable, meaning you can easily change the text, logo, and button actions without 
+changing the design.*/
+
+/* The component takes six inputs through its props:
+logoSrc: The image source for the logo
+headingText: The main text to display
+primaryButtonText: Text for the main action button
+secondaryButtonText: Text for the secondary button
+onPrimaryClick: Function to run when primary button is clicked
+onSecondaryClick: Function to run when secondary button is clicked
+*/
+
+/* The code focuses on presentation and layout rather than complex data 
+transformations. It's primarily about creating a consistent, professional-looking 
+welcome screen that can be easily customized through props.*/
+
 import React from 'react';
 import styled from 'styled-components';
 

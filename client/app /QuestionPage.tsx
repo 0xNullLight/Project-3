@@ -1,3 +1,10 @@
+/* This code creates a web page component that displays a form for collecting questions 
+from users. It's built using React and styled-components for styling.*/
+
+/* Purpose: The code builds a page with a header and a main section 
+containing five question input fields and a submit button. It's designed to collect 
+multiple questions from users in a clean, modern interface.*/
+
 import styled from 'styled-components';
 
 const Page = styled.div`
