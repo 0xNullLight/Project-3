@@ -3,9 +3,14 @@ import dj_database_url
 from .settings import *
 from .settings import BASE_DIR
 
-# Production host settings
-ALLOWED_HOSTS = [os.environ.get('RENDER_EXTERNAL_HOSTNAME', '*')]
-CORS_ALLOWED_ORIGINS = ['https://' + os.environ.get('RENDER_EXTERNAL_HOSTNAME', '')]
+# Add this line after the INSTALLED_APPS section
+SITE_ID = 1
+
+# Make sure CORS_ALLOWED_ORIGINS includes your frontend URL
+CORS_ALLOWED_ORIGINS = [
+    'https://' + os.environ.get('RENDER_EXTERNAL_HOSTNAME', ''),
+    'http://localhost:5173'
+]
 
 # Security settings
 DEBUG = False
@@ -42,12 +47,3 @@ DATABASES = {
         conn_max_age=600
     )
 }
-
-# Add this line after the INSTALLED_APPS section
-SITE_ID = 1
-
-# Make sure CORS_ALLOWED_ORIGINS includes your frontend URL
-CORS_ALLOWED_ORIGINS = [
-    'https://' + os.environ.get('RENDER_EXTERNAL_HOSTNAME', ''),
-    'http://localhost:5173'
-]
