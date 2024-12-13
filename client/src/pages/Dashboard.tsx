@@ -1,3 +1,5 @@
+/* personalized landing page that greets users by their username */
+
 import React from 'react';
 import { useSelector } from 'react-redux';
 import { RootState } from '../store/store';
