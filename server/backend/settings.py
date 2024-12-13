@@ -18,7 +18,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # Development security settings
 SECRET_KEY = 'django-insecure-)7se(^lmjy#m$f0n+pdkh(%(+1lxua(r&@z+1*jo4&y%j1d@h!'
 DEBUG = True
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['https://quizmaster-9pw1.onrender.com']
 
 # Application definition
 INSTALLED_APPS = [
