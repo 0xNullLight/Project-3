@@ -1,3 +1,7 @@
+/* The important data flow here is the transformation 
+of username/password into an access token, which then 
+becomes the key to accessing the rest of the application.*/
+
 const handleLogin = async (e: FormEvent) => {
   e.preventDefault();
 
