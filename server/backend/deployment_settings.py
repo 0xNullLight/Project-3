@@ -11,6 +11,8 @@ CORS_ALLOWED_ORIGINS = [
     'https://' + os.environ.get('RENDER_EXTERNAL_HOSTNAME', ''),
     'http://localhost:5173'
 ]
+# Production host settings
+ALLOWED_HOSTS = [os.environ.get('RENDER_EXTERNAL_HOSTNAME', '*')]
 
 # Security settings
 DEBUG = False
