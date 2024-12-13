@@ -3,17 +3,18 @@ import dj_database_url
 from .settings import *
 from .settings import BASE_DIR
 
-# Correct ALLOWED_HOSTS and CORS_ALLOWED_ORIGINS
+# Production host settings
 ALLOWED_HOSTS = [os.environ.get('RENDER_EXTERNAL_HOSTNAME', '*')]
 CORS_ALLOWED_ORIGINS = ['https://' + os.environ.get('RENDER_EXTERNAL_HOSTNAME', '')]
 
-# Set DEBUG and SECRET_KEY safely
+# Security settings
 DEBUG = False
-SECRET_KEY = os.environ.get('SECRET_KEY', 'fallback-secret-key')  # Provide a fallback for local development
+SECRET_KEY = os.environ.get('SECRET_KEY', 'fallback-secret-key')
 
+# Production middleware with WhiteNoise for static files
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
-    'whitenoise.middleware.WhiteNoiseMiddleware',  # Make sure this is right after SecurityMiddleware
+    'whitenoise.middleware.WhiteNoiseMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',
@@ -22,22 +23,21 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-# CORS_ALLOWED_ORGINS = [
-#     'http://localhost:5173'
-# ]
-
+# Static files configuration
 STATIC_URL = 'static/'
 STATIC_ROOT = BASE_DIR / "staticfiles"
 
+# WhiteNoise storage backend for static files
 STORAGES = {
     "staticfiles": {
         "BACKEND": "whitenoise.storage.CompressedStaticFilesStorage",
     },
 }
-# Configure DATABASES safely with a fallback
+
+# Database configuration with fallback
 DATABASES = {
     'default': dj_database_url.config(
-        default=os.environ.get('DATABASE_URL', 'sqlite:///db.sqlite3'),  # Use SQLite as fallback for local development
+        default=os.environ.get('DATABASE_URL', 'sqlite:///db.sqlite3'),
         conn_max_age=600
     )
 }

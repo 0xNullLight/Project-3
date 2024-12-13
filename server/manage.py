@@ -1,10 +1,9 @@
 #!/usr/bin/env python
-"""Django's command-line utility for administrative tasks."""
 import os
 import sys
 
 def main():
-    # Required to make a seamless switch between deployment_settings and the original settings
+    # Dynamic settings selection for development/production
     settings_module = 'backend.deployment_settings' if 'RENDER_EXTERNAL_HOSTNAME' in os.environ else 'backend.settings'
     os.environ.setdefault('DJANGO_SETTINGS_MODULE', settings_module)
     try:
