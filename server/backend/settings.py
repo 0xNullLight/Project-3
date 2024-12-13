@@ -32,14 +32,14 @@ INSTALLED_APPS = [
     'quizapp',
     'userapp',
     'django.contrib.sites',
-    'corsheaders',  # Add this
+    'corsheaders',
 ]
 
 # Middleware configuration
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
-    'whitenoise.middleware.WhiteNoiseMiddleware',  # Add this
-    'corsheaders.middleware.CorsMiddleware',  # Add this
+    'whitenoise.middleware.WhiteNoiseMiddleware',
+    'corsheaders.middleware.CorsMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',
@@ -72,6 +72,9 @@ WSGI_APPLICATION = 'backend.wsgi.application'
 CORS_ALLOWED_ORGINS = [
     'http://localhost:5173'
 ]
+
+CORS_ALLOW_ALL_ORIGINS = True
+CORS_ALLOW_CREDENTIALS = True
 
 # Static files configuration
 STATIC_ROOT = BASE_DIR/"staticfiles"
