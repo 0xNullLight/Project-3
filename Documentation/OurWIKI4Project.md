@@ -149,12 +149,12 @@ In our case, we choose the framework and variant as:
 
 
 ### Starting the project
-Once we follow all the necessary steps mentioned above, we run our React Vite project using the following command:
+5. Once we follow all the necessary steps mentioned above, we run our React Vite project using the following command:
 
 `npm run dev`
 
 ### Coding example
-Now let's execute what we have learned so far. The following commands will help us create our React Vite project with npm.
+6. Now let's execute what we have learned so far. The following commands will help us create our React Vite project with npm.
 
 1. `npm create vite@latest`
 
@@ -165,7 +165,7 @@ Now let's execute what we have learned so far. The following commands will help 
 4. `npm run dev`
 
 # Github-Cheatsheet
-A cheatsheet for me on how to use Github
+A cheatsheet on how to use Github
 
 ## BASIC GITHUB PROCESS
 
@@ -181,7 +181,7 @@ Code:
 
 3.  `git add .`
 
-   This adds all code to your github.
+   This adds all code from every file you worked on to your github main branch.
 
 4. `git commit -m "your message here" `
 
