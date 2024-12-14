@@ -124,25 +124,25 @@ Path convertors:
 
 ### Creating the React Vite project
 
-We use npm to install all the packages on our local machine. To create our React Vite project using npm , we use the following command:
+1. We use npm to install all the packages on our local machine. To create our React Vite project using npm , we use the following command:
 
 `npm create vite@latest`
 
 ### Choosing the framework and variant
 
-We have to choose our preferred framework and variant we want to work on.
+2. We have to choose our preferred framework and variant we want to work on.
 
 In our case, we choose the framework and variant as:
 
  `React and Typescript respectively.`
 
 ### Navigating to the app directory
-After running the creation command, we navigate to our newly created Vite project's directory using the following command:
+3. After running the creation command, we navigate to our newly created Vite project's directory using the following command:
 
 `cd vite-project`
 
 ### Installing all required packages
-Now we install all the packages mentioned in our package.json using the following command:
+4. Now we install all the packages mentioned in our package.json using the following command:
 
 `npm install`
 
