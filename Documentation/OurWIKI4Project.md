@@ -164,7 +164,35 @@ Now let's execute what we have learned so far. The following commands will help 
 
 4. `npm run dev`
 
+# Github-Cheatsheet
+A cheatsheet for me on how to use Github
 
+## BASIC GITHUB PROCESS
+
+Code:
+
+1. `git status`
+
+   This makes sure your local branch is the same as main.
+
+2. `git pull`
+   
+   Pulls the main branch to your local and makes sure you are in same instance.
+
+3.  `git add .`
+
+   This adds all code to your github.
+
+4. `git commit -m "your message here" `
+
+   This commits to github with the message of the update.
+
+5. `git push`
+
+   This pushes your latest code on local branch to github.
+
+6. `git pull`
+7. `git status`
 
 
 
