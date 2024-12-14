@@ -122,6 +122,47 @@ Path convertors:
 
 [how to set up react & vite](https://dev.to/mcbarna/setup-react-with-vite-on-vscode-a-step-by-step-tutorial-591g)
 
+### Creating the React Vite project
+
+We use npm to install all the packages on our local machine. To create our React Vite project using npm , we use the following command:
+
+`npm create vite@latest`
+
+### Choosing the framework and variant
+
+We have to choose our preferred framework and variant we want to work on.
+
+In our case, we choose the framework and variant as:
+
+ `React and Typescript respectively.`
+
+### Navigating to the app directory
+After running the creation command, we navigate to our newly created Vite project's directory using the following command:
+
+`cd vite-project`
+
+### Installing all required packages
+Now we install all the packages mentioned in our package.json using the following command:
+
+`npm install`
+
+
+
+### Starting the project
+Once we follow all the necessary steps mentioned above, we run our React Vite project using the following command:
+
+`npm run dev`
+
+### Coding example
+Now let's execute what we have learned so far. The following commands will help us create our React Vite project with npm.
+
+1. `npm create vite@latest`
+
+2. `cd vite-project`
+
+3. `npm install`
+
+4. `npm run dev`
 
 
 
