@@ -86,7 +86,7 @@ DATABASES = {
 }
 
 DATABASES = {
-     'default': dj_database_url.config(default='DATABASE_URL_FROM_RENDER')
+     'default': dj_database_url.config(default='postgresql://quizmaster_y4hr_user:cPPzgAb1c4QmoE032x2qNtXGUywaNmMN@dpg-ctdnrbt6l47c73ahj670-a/quizmaster_y4hr')
  }
 
 
