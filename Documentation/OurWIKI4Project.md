@@ -316,3 +316,59 @@ Use Render's free trial:
 If your migration requires more advanced features, consider using Render's free trial period to test the migration process before committing to a paid plan. 
 Database migration tools:
 Some third-party database migration tools can simplify the process, but they might have their own pricing structure. <em>
+
+====================================================================================================================================================
+===================================================================================================================================================
+![How it is supposed to look](https://github.com/0xNullLight/QuizMaster/edit/main/Documentation/OurWIKI4Project.md#:~:text=how%2Dit%27s%2D-,suppose,-%2Dto%2Dtie%2Dtogether)
+
+The diagram illustrates the structure of a Django project, showcasing how various components are organized within the project folder. It mainly includes a "backend" section and two apps: `USERAPP` and `QUIZAPP`. Here's a breakdown of what each file or section does:
+
+### **Backend Section**
+1. **`manage.py`**
+   - This file is the entry point to manage the Django project. It contains commands to run the server, initialize the project, run migrations, and more. It manages both user-related and quiz-related functionality.
+
+2. **`wsgi.py`**
+   - Stands for **Web Server Gateway Interface**. It acts as an interface between the Django application and web servers for deployment. This is used when the project is served through a traditional web server like Apache or Nginx.
+
+3. **`settings.py`**
+   - This file contains all the configuration settings for the Django project, such as database settings, installed apps, middleware, and other global settings.
+
+4. **`asgi.py`**
+   - Stands for **Asynchronous Server Gateway Interface**. It is similar to `wsgi.py` but is used when deploying the Django project in an asynchronous environment (i.e., for handling WebSockets, long-lived connections). This is useful for modern web apps that need real-time updates.
+
+### **`QUIZAPP` Section**
+This part of the diagram shows the structure of an app called `QUIZAPP`, which manages quiz-related functionality.
+
+1. **`urls.py`**
+   - This file defines the URL routes specific to the `QUIZAPP`. It maps URLs to specific views in the app, determining how requests are handled.
+
+2. **`admin.py`**
+   - This file is used to register models in the Django admin interface, making the models manageable via the built-in Django admin dashboard.
+
+3. **`apps.py`**
+   - This file defines app-specific configurations, such as setting the app's name. It's used to initialize the app in the Django project.
+
+4. **`serializers.py`**
+   - Serializers are used to convert complex data types like Django models into JSON or other content types for APIs. This file is responsible for serializing the quiz data to be used by views or returned in API responses.
+
+5. **`models.py`**
+   - Contains the model definitions for the `QUIZAPP`. These models define the structure of the database tables for quizzes and their related data.
+
+6. **`tests.py`**
+   - Contains test cases for the `QUIZAPP` to ensure the app behaves as expected. Django uses this to run automated tests.
+
+7. **`views.py`**
+   - This file contains the logic for handling requests and returning responses. In `QUIZAPP`, it would define the views that process user interactions with quizzes.
+
+### **`USERAPP` Section**
+This section manages user-related functionality within the project.
+
+- The diagram doesn't explicitly list all the files in `USERAPP`, but it's implied that it follows a similar structure to `QUIZAPP`, having views, models, tests, and other files relevant to user management. 
+
+   Key files include:
+   - **`models.py`**: Defines user models.
+   - **`views.py`**: Contains user views.
+   - **`tests.py`**: Includes test cases related to users.
+   - **`serializers.py`**: Serializes user data for APIs.
+
+In summary, this Django project is organized into a backend section that sets up and configures the project, and two main apps (`USERAPP` and `QUIZAPP`) that handle user and quiz functionalities. Each app has typical Django files like `urls.py`, `models.py`, `views.py`, and `serializers.py`, and these files work together to define the business logic, data structures, and API responses for the app's specific tasks.
