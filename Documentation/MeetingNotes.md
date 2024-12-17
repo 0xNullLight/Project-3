@@ -67,3 +67,22 @@ Things to be done:
 Things to get done:
 
 - 
+
+### Friday Dec 13, 2024
+
+- Claree and Amanda uploaded some files for front end
+
+- Bee and Brandi will work on the backend and front end connection.
+
+### Saturday Dec 14, 2024
+
+- Brandi worked on trying to get the frontend to work.
+
+- Bee worked on the deployment on Render.
+
+-Bee worked on Frontend.
+
+### Sunday Dec 15, 2024
+
+- Bee and Brandi worked on the Render issues
+

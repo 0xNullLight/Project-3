@@ -121,6 +121,10 @@ Building a quiz app with React, Django, and Python involves several steps.
 
 ![Schematic](assets/image_720-6.png)
 
+![Scematic2](assets/how-it's-suppose-to-tie-together.png)
+
+![Scematic3](assets/server.png)
+
 Backend (Django):
 - Set up Django project:
 - Create a new Django project.
